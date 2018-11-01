@@ -14,13 +14,11 @@
 //     language: 'Common Toungue',
 // });
 
-
-
 const myObj = {
-    greeting: 'Hello',
-    sayHello: function (name) {
-        console.log(`${this.greeting} my name is ${name}`);
-        console.log(this);
-    }
+  greeting: "Hello",
+  sayHello: function(name) {
+    console.log(`${this.greeting} my name is ${name}`);
+    console.log(this);
+  }
 };
-myObj.sayHello('Jim');
+myObj.sayHello("Jim");
